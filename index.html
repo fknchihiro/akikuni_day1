@@ -1,0 +1,697 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+	<title>【章邦・夏至病】6_18 無事でよかった</title>
+<style>
+*{margin:0;padding: 0;font-size: 14px;font-family : 'メイリオ',Meiryo,Osaka,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック','MS PGothic',sans-serif;}
+body{width: 100%;margin: 0;padding: 0;background-color: #f7f7f7;position: relative;}
+a{color: #666666;}
+a:hover{color: #CD0000;}
+h1{font-size: 21px;color: #666666;margin: 0px;padding: 0px;border-bottom: 1px solid #CCCCCC;}
+h2{font-size: 16px;color: #666666;margin: 5px;padding: 50px 0 0 0;border-bottom: 1px dotted #CCCCCC;}
+label{transition: all 0.2s;}
+#toggle{display: none;}
+#label_toggle{display: block;width: 100px;text-align: center;padding: 0;border: 2px solid #CD0000;background-color: #FFFFFF;color: #CD0000;border-radius: 15px;position: fixed;top: 10px;right: 10px;z-index: 1005;}
+#label_toggle:hover{background-color:#CD0000;color:#FFFFFF;}
+header{display: block;width: 0px;height: 100%;position: fixed;background-color: #FFFFFF;border-left: 1px solid #CCCCCC;z-index: 2;top: 0;right: 0;overflow-y: auto;overflow-x: hidden;transition: all 0.2s;padding: 50px 0 0 0;box-sizing: border-box;}
+#toggle:checked + header{width: 200px;}
+header label{display: block;width: 180px;margin:0 5px;padding: 5px;border-bottom: 1px dotted #EFEFEF;}
+header label input[type="checkbox"]{margin-right: 5px;}
+label:hover{cursor:pointer;background-color: #EFEFEF;}
+.wrapper{display: block;width: calc(100% - 30px);max-width: 1100px;padding: 30px 15px 100px 15px;margin: 0 AUTO;overflow: hidden;position: relative;background-color: #FFFFFF;}
+/* ログ部分 */
+dl{display: block;margin: 0;padding: 3px;box-sizing: border-box;}
+dl::after{display: block;content: "";clear: both;}
+dt{display: block;font-size: 0.8em;font-weight: bold;float: left;width: 100px;margin: 0;padding: 5px 5px;text-align: right;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+dd{display: block;width: calc(100% - 120px);margin: 0;padding: 2px;float: right;line-height: 1.8em;}
+.zatsudan{width: 95%;margin: 0 0 0 AUTO;background:#f7f7f7;border-left:1px solid #CCCCCC;}
+.other{background-color:#fff7ef;}
+.secret{width: 98%;margin: 0 0 0 AUTO;border-left:3px solid #CCCCCC;}
+.group{background:#f9f9f9;border-left:1px solid #CCCCCC;}
+@media (max-width:480px){
+  dt{display: inline-block;float: none;width: calc(100% - 6px);margin: 0;padding: 3px 0 0 3px;text-align: left;}
+  dd{display: inline-block;width: calc(100% - 6px);padding: 3px;float: none;}
+}
+</style>
+<style>
+.tab_0{background-color:#ffdfea;border-color:#E91E63;}
+.tab_0.selected{display: none;}
+
+</style>
+</head>
+<body>
+<label for="toggle" id="label_toggle">表示/非表示</label>
+<input type="checkbox" name="toggle" id="toggle">
+<header>
+<label>▽ 非表示にするタブ</label>
+<label for="main"><input type="checkbox" onClick="Hide(this)" class="checkbox" id="main">メイン</label>
+<label for="zatsudan"><input type="checkbox" onClick="Hide(this)" class="checkbox" id="zatsudan">雑談</label>
+<label for="tab_0"><input type="checkbox" onClick="Hide(this)" class="checkbox" id="tab_0">天界</label>
+</header>
+<div class="wrapper">
+<h1>【章邦・夏至病】6_18 無事でよかった</h1>
+<h2 id="day1">【章邦・夏至病】6_18 無事でよかった</h2>
+<dl style="color:#4f4f4f" class="zatsudan"><dt>▼</dt><dd>    ▼【お知らせ】<br>・ハウスルール等を画面上に表示しております。開始前にご一読ください。<br><br>・本卓はKPレス対応シナリオのため、一部の場面でPCの行動が制限されることがあります。（提示される選択肢より行動を決めてもらう等）<br><br>・ダイス結果や選択によりルートが分岐されます。いつもよりもKPへのゴネが効かないシナリオであることをご了承ください。<br><br>・これは全4話のキャンペーンシナリオの1話目です。<br>　最後まで遊ばないと何もわかりません。   </dd></dl>
+<dl style="color:#4f4f4f" class="zatsudan"><dt>▼</dt><dd>    【差分駒の作り方】<br>①いあきゃらの「出力」から「ココフォリア駒出力」を選択します。（すべての技能出力・CCB表示）<br>②このページ上で[Ctrl] + [V]で貼り付けます。<br>③表示座標いずれかに10000等を入力し彼方へ飛ばします。<br>④お名前の（ふりがな）を消します。<br>⑤本卓はSANチェックにクリティカル・ファンブルを適用いたします。【正気度ロール】のチャットパレットを「1d100&lt;={SAN}」表記から「CCB&lt;={SAN}」に変更をお願いします。   </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>KP</dt><dd>    感想好き勝手しゃべっていいとこ！   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    何もかもが久しぶりすぎる   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    わたしも   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    ツインテの女   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    かわいいでしょ♡!!   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    （故人）   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    そうなんだ……   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    死にましたね   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    陽キャだから   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    その法則今んとこ根拠ありすぎなんだよな   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    さて　どうなるか   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    根が陽キャだからな……   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    この魂   </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>KP</dt><dd>    6回も回しているシナリオですがこの男飛び道具すぎるため不安<br>シナリオにちゃんと乗ってくれるかな　頼みましたよ   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    彰邦との違い<br>・家格を上げた（そして没落寸前）<br>・主体性を抜いた<br>・好奇心を抜いた<br>・推進力を抜いた<br>・基本的にお嬢様   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    その三本槍抜いた言動が今のところ想像しきれないでいる   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    今回のキャラシ芸もお見事でした   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    3回ぐらい読み直さないといけなかった　頭に入ってこなくて   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    初めて見る日本語がいっぱいあった   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    死ぬかもしれないので全部が無駄になっても別に良いふざけたキャラシにした   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    大好き   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    没落貴族、推しにいるので親近感<br>この男のことも愛します   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    草   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    楽しみすぎる   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    好きな食べ物は出された物<br>趣味は差し出された物   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    まっしろなあかちゃん   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    立派なヒモになれるように夏至の先まで生き延びようね   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    立派なヒモ…   </dd></dl>
+<dl style="color:#673ab7" class="zatsudan"><dt>椎崎 章邦 </dt><dd>    「俺は立派なヒモになる」   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    こんな日本語ってないよ   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ぴぴ！それでは決意も新たにしたところで<br>開始前みなさんにアナウンスしているところからお話しますね！   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    はい   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    「夏に至る病」は基本KPレスシナリオの要素が強いので、<br>・ダイスの結果<br>・A or B どちらを選ぶか　で物語が分岐していきます。<br>そういう点ではRPに制約が多いです。<br><br>ただなるべく汲めるようにはがんばりたいので、何か思いついたことがあったら気軽に積極的に発言してください！   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    また、KP側で動かすNPCキャラクターは登場しますが、基本的に一人で行動することが多いです！<br>1人語りが多いので無口キャラは大変かもですがモノローグとか挟んでいい感じにRPお願いします！<br>時間あるし自由にのんびりやっていいよ！   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    また、本シナリオは全4話からなるキャンペーンシナリオです。<br><br>1話目　ロストしません<br>2話目　ロストしません<br>3話目　ロストする道はあるけど可能性は低いです<br>4話目　1~3話目でどういう道筋を通ってきたか、どういう選択をするか ＋ 一発勝負出目次第で生死が決まります<br><br>だいたいみんなストレートで最終話まで行きますが、最終話に至るまでの3話中でどのエンディングになったかが4話目に影響してくることになります。   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ロストはないとはいえ、どういう選択を取るかが後々の章に繋がります。<br>注意深く、でも物怖じはしすぎず楽しんでプレイしていきましょう！！   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    はい   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    今回は1話、ロストはありません！<br>雰囲気をつかんだり、シナリオの特性に慣れたり……それをするためのチュートリアル感がつよい話かなあと思っているので積極的にいろんなことに首を突っ込んでいってほしいです！   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    （訳：首を突っ込まないと速攻で話が終わります）   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    わかりました   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    あ　忘れてた   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ホラー苦手の民だよね   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    はい   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    wwwwwwwwwwwwwwwwwww   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    右上にベルが出たんですけど　気持ちが沈んで陽気な気持ちになりたいときに押してください   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    明るくするんで   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    かわいい   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    助っ人呼んできます   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    めちゃ押すじゃん   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    かわいい   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    いぬだね   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    かわいい   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    携帯からベルの音鳴り続けて、どこから何！？？！！（心霊！？？！！！？）てなって　ここでワロタ   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ここぞという時に押して   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    ここぞ了解   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    このままだと先に進む勇気が出ない時   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    おけ   </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>KP</dt><dd>    ｗｗｗｗｗｗ   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    まあ大丈夫やろ　わたしも1年ぐらいブランクあるのでのんびりやりましょう   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    はい　よろしくお願いします   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ではでは！準備がよろしければ始めていきますよ～～～！！   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    大丈夫です　お願いします   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    夏に至る病　第七走者：椎崎 章邦<br>がんばって生き残りましょう！！   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    楽しみすぎてビール飲んできた   </dd></dl>
+<dl style="color:#4f4f4f" class="zatsudan"><dt>▼</dt><dd>    <br><br>…<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="zatsudan"><dt>▼</dt><dd>    <br><br>…<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br>親戚の家に泊まることになった。<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br>この村は、なんとなく、おかしい気がする。<br><br>理由は沢山ある。<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br>それをひとつずつ、振り返っていこうと思う。<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    **********************************<br><br><br><br>「夏に至る病」<br><br><br><br><br>　ひとつめ<br><br>　　　　　無事でよかった<br><br><br><br>　作：稀彦 様<br><br><br><br>**********************************   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br><br>…<br><br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    あなたはこの6月、ほとんどを親戚の家で過ごすことになっていた。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    理由はなんでもいい。<br>未成年であれば両親の仕事の都合であるだろうし、成人しているのであれば、住んでいるアパートが全焼したのかもしれない。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>いやはや全く、世の中、何が起こるかわからないものだから。<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    日付で言うならば、6月1日から、6月22日まで。そこそこの期間だ。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    あなたを受け入れたのは、叔父だった。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    叔父はのどかな土地――言葉を選ばずに言うとクソ田舎――に平屋の一軒家を建て、そこで独り住んでいる。<br><br>その一室を、あなたは6月の大半間借りしていた。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    叔父は言う。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「この村、ちょっと変わってるからさ。馴染むまで時間かかるかもね」<br><br>「あ、だから、ここにいる間に馴染めきれないかも」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br>「無理だな、って思ったら、すぐに逃げるんだよ。」<br><br>「他人の家にまでは入ってこないからさ」<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    あなたはそんな話を聞き流しつつ。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    今日も、梅雨のわりに晴れている空を、縁側から見上げていた。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br>************<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    この平屋の玄関先には電信柱がひとつ、立っている。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    あなたは外へ買い物へ行く際、<br>散歩へ行く際、<br>親戚の家を勝手に出入りしている猫の後をついていく際。<br><br>毎度、必然的に視界に入れている。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    その電柱には、毎日。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    あなたがやってきた6月1日から、毎日。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    迷子犬、迷子猫探しの貼り紙が貼られている。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    この村のペット飼育率はやけに高いようだ。<br>しかも、一度も被っているのを見たことが無い。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    そんな張り紙をずっと不思議に思っていた、とある日。<br>たしか、6月10日くらいだったと思う。<br><br>用事は何でもいい。とにかく日中、家から出た。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    電柱を見る。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>今日も、貼り紙が貼ってある。<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    　RPの後、＜目星＞   </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>KP</dt><dd>    浮かれている   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    ワクワクワクワクワクワクワクワク   </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>KP</dt><dd>    ゴリの文章大好きなのでまじでのんびりRPしてほしい   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    まったく、同じ気持ち   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    ゴリ先生の新刊をここで読めるってこと   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    この数日間の写真や、地元の街で見かけたペットらに思いを馳せる。ペット。餌を与えられる代わりに愛嬌を振りまく生物。紐に繋がれて首輪をはめられたこいつらはもしかして俺より既にヒモとして大成しているのではないか？野生を捨てているから自活できるわけではないのか？などと考えながら<br><br>「…………」<br><br>念のため敬意を持って本日分の貼り紙を眺める   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    CCB&lt;=90 【目星】 (1D100&lt;=90) ＞ 37 ＞ 成功  </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    wwwwwwwwwwwwwww wwwwwwwwwwwwwww wwwwwwwwwwwwwww   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    天才なのか？   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ペットはヒモ　←新視点   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    その日探しているのは、犬のようだ。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    コロちゃん。雑種犬。<br>書いてあるのは「保護しています。心当たりのある方はここに電話してください」という文字と、電話番号。<br>末尾は9999。覚えやすい。/   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    雑種のコロちゃんと椎崎家の嫡男である俺、血統は自分の方が上だが、ヒモの先達にはやはり敬意を払うべきだと考えて、コロちゃんの顔をじっくり見ておく。   </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>KP</dt><dd>    「ヒモの先達」←存在しない日本語   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「中々賢そうだ」とかなんとか言いながら、そういえば動物は差し入れとして連れてこられたことはなかったな、と実家生活の日々を思い返す。   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    恐ろしいこと言ってる   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    危険だと思われたんだろうなと推察して、立派なヒモになれたら犬の一匹や二匹飼ってみたいと長期目標を立てる。/   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    ヒモの前に道は無しだろ   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    # ヒモがペットを飼うな   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    この男，立派なヒモになれるよと言ったらなんでもやってくれそうで愉快   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    ――そんなことをぼんやり考えながら、ぼうっとポスターを眺めていると。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    小走りでやってきた少年が、あなたと同じ電柱を見つめた。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    そして近くの公衆電話にかけより、電話をかけ始める。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    ＜聞き耳＞   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    CCB&lt;=75 【聞き耳】 (1D100&lt;=75) ＞ 95 ＞ 失敗  </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    あぶ   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ようやく聞く耳持ってきたと思ったら   </dd></dl>
+<dl style="color:#673ab7" class="zatsudan"><dt>椎崎 章邦 </dt><dd>    それな   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    wwwwwwwwwwwwwww   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    少年を眺める   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    貼り紙を見て電話をかけ始めたならあの子が飼い主かもしれないと推理して、ペットの飼い主ひいてはヒモを養う者とはどういう存在なのか確認する。   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ？   </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>KP</dt><dd>    ？？   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    小学3～4年ぐらいだろうか。<br>電話で話している内容はよく聞き取れなかったが、その年にしては利発そうな少年だ。<br>電話口の相手と幾度か受け答えをした後、喜色を滲ませて元気よくその場から駆け出していく。<br><br>おそらく推察通り、飼い主か何かだったのだろう、と思う。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    そう。<br><br>こういった貼り紙も、実のところはきちんと効果があるらしい。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    どんどんと遠くなるその後ろ姿をぼんやりと見送り、あなたも用事のある方向へと歩を進める。/   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    賢そうな犬、利発そうな少年。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    脳内に電流が走る。ヒモと飼い主は似た性質を持つのかもしれない。   </dd></dl>
+<dl style="color:#4f4f4f" class="zatsudan"><dt>▼</dt><dd>    ？   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    データを集めるため、ペットと飼い主を見つけたらよく観察しようと心に決めて歩き出す。/   </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>KP</dt><dd>    ？？   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    茹だる熱気の中、いつもより少し軽い足取りで外へと繰り出した。<br>途中遭遇した2，3組のペット連れを観察したデータを土産に、用事を済ませて帰宅することだろう。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br>…<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    また、別の日。6月14日くらい。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    あなたはこの日も家を出た。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    電柱を見る。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>今日も、貼り紙が貼ってある。<br><br>   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    なんの電流？？？？   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    ＜目星＞   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    いそいそと貼り紙の前に行く   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    CCB&lt;=90 【目星】 (1D100&lt;=90) ＞ 92 ＞ 失敗  </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    赤いって   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    ヒモ先輩のご尊顔を拝謁するべく息を整えたりする   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    その気持ちで動物見てるやつ日本中でただひとり   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    その日探しているのは鳥のようだ。<br><br>スズメちゃん。という名前のオカメインコ。書いてあるのは「保護しています。心当たりのある方はここに電話してください」という文字と、電話番号。/   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「鳥だと……！！」   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    鳥のパターンは想定していなかったのでおののく。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    インコにスズメちゃんとは……と飼い主の名付けセンスに思うところはあるが、ヒモ先輩の顔を立てて黙っておく。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    それから電話番号を見て、こいつ前も賢い犬を保護していなかったかと疑問に思う。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「ヒモが集っている……？」   </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>KP</dt><dd>    源なんだけど紅茶吹き出すかと思った   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    俺もヒモの卵として集っておくべきかどうか悩んでしばらく佇む。/   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    そんなことをふと考え込みながらポスターを遠巻きに見ていると、一人の女性が貼り紙の前で立ち止まった。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    この人も先日の少年のように、心当たりがあるのだろうか。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    □<br>　▶ 話しかける<br>　▶ 話しかけない   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    女性を少し眺めてから、ああ、取り次いでくれる人間がいないんだった、自分で話しかけなければと思い至り、近寄って話しかける。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    全然気を遣わず声をかける。<br><br>「その子の飼い主（養いし者）ですか」/   </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>KP</dt><dd>    見たことないルビ振られてる   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    あなたが話しかけると、女性はハッとした表情で貼り紙から目線を外した。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「！　は、はい……！」びっくり   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    6月からこの村に来て半月ほど経ったが、見慣れない顔の若い女性だな、と思う。<br>栗色の髪の優しそうな雰囲気の女性だ。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「ごめんなさい！ぼーっと人様のお家の前で……」ぺこぺこ   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「あ、そう！この子。私が飼ってるわけじゃないんですけど……」<br><br>「ええと………私、今、婚約者の実家に挨拶に来ていて………そこで飼っていたインコが逃げてしまったみたいで、探していたんです」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    そう言ってちょっと照れくさそうに笑う。/   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    びっくりされたのでびっくりする。急に人に話しかけてはいけないということを学ぶ。それから（俺の家でもないので）お気になさらずと前置きしておく。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「婚約者の方の、ですか」   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    ということは、この女が優しそうだからといってスズメちゃんも温厚なわけではない。婚約者の顔写真をなんとしても見たくなってくる。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「それは早く見つかるといいですね……」   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「ご連絡されますか？」ポスターを指す/   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「そうなんです、ご家族の方みんな心配されていて……電話かけなきゃ、」<br>ごそごそとスマホを取り出した女性は、画面をのぞき込んで肩を落とす。<br><br>「…うわ～。えっと、どうしよう……ここ、のどかでいいところですけど、電波通じないのだけネックなんですよね……あそこの公衆電話使えばいいのかな」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「うーん……写真でちらっと見せてもらっただけだから、自信ないけど………やっぱりこの子だよなあ」ポスターをしげしげと眺めながらスマホで番号をメモする   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「インコのすずめちゃん……って、さすがに他にいないですよね」くすくす/   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    電波状況など言われるまで気にしていなかった。自分のスマホを取り出して電波状況を確認する。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    自分のも圏外？   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    圏外ですね　電波ガチャ爆死です   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「……」本当に圏外だ。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「先日は少年があの公衆電話で連絡しているのを見ました」公衆電話を指さす。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「スズメちゃんかどうか、確認されては」   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    そのまま電話を見守る構えで動かない。/   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>       </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「え、他の方もそうなんですか！？やっぱりこういうところだし、放し飼いにされている方が多いのかなあ」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「公衆電話は繋がるんですね、よかったあ……電話してみます！ありがとうございます」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    女性はいそいそと公衆電話の方へと向かった。<br>小銭を入れて番号をプッシュし、公衆電話の受話器を上げたところであなたがまだこちらを見ていることに気づき、不思議そうな顔で首を傾げている。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    不思議そうにされて不思議そうにしておく   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    コイツ   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    ああ、立ち去らないと不自然か、と思い至ったがそのままなんとしても見守る。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「……」グッと拳を握り、応援していますよ感を出しておく/   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「……？」何か良く分からないがとりあえず頷いておく   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    そこから応答があったようで、女性は数度の受け答えの後、あの時の少年と同じように顔を綻ばせる。<br>何度か嬉しそうに首を縦に振ったあと、受話器を置き、ぱたぱたとあなたの元へ駆け寄ってきた。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    女性を迎えて、「スズメちゃんに間違いなさそうでしたか？」と声をかける。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「はい！見つかりました！スズメちゃん、無事預かって保護していただいているようです！」<br>「お電話口の方も親切な方でよかった、今から引き取りに行ってきます」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「ふふ。私、知人でない方に電話するのはちょっと苦手な性分で……どうしようかちょっと尻込みしていたんですけど」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「背中押して頂けてとっても助かりました！ありがとうございます」ぺこり   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「今日も6月なのに暑いですよね、熱中症にならないように気を付けてくださいね」/   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    当然のことをしたまでです、と微笑んで、是非今度スズメちゃんと婚約者の方と遊びに来てください、この辺で毎日暇しているのでという顔をした後、   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    一拍おいてから「是非今度スズメちゃんと婚約者の方と遊びに来てください」   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    と言っておく。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「暑さにはお互い気をつけましょう」で締め、己一人でもよいコミュニケーションがとれたと満足げに別れる。/   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    女性はあなたの言葉にきょとん、と目を瞬かせてから、「はい！」と嬉しそうに返事をした。<br><br>にこりと笑いながら控え目に手を振って、その場を立ち去っていく。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br><br>…<br><br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br>ああ、今日も。<br><br>誰かがなにかを探している。<br><br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br><br>…<br><br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    そして、今日。<br>6月18日。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    あなたは朝起きて、猫の餌を手に庭をうろつく叔父を見つけただろう。/   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    ようやく誰も起こしに来ないことに慣れてきた。順調にヒモとしてステップアップしている手応えを感じる。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    叔父に声をかける。<br>「おはようございます」   </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>KP</dt><dd>    「順調にヒモとしてステップアップしている手応え」←地球上にない言葉   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    猫の餌を見て、「それは？」と付け足す。/   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「あ、おはよう章邦」<br><br>「いやそれがさあ………大変なんだ」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「いつもご飯を食べにくるニャンコが、昨日の夜から見当たらなくて…」/   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「へえ」   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「それは……他の家の厄介になっているのでは？」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「いや、毎日いつも決まった時間帯に来る子なんだよ………今日に限ってこないとかない、たぶん」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「あのふてぶてしい子が、どこかの家でおとなしく飼われる？なさそう………」<br><br>「今日、この暑さだろ？心配でさ……」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「悪いんだけど、外出る準備出来たら一緒に探してもらってもいい？」   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    ふてぶてしい猫だったのか。ということはこの叔父も……という顔で叔父をまじまじと眺める。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「ふてぶてしそうではある……か……」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「……ん？何？」   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「いえ、何も」   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「わかりました、協力します」   </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>KP</dt><dd>    ふてぶてしさの極みだよ   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「ありがとう、助かる！お礼はしっかりするからさ～今日の夕飯のリクエスト権とかでいい？」   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「え……」夕飯のリクエストごときがお礼になるということにカルチャーショックを受ける。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    が、思い直す。世間一般とはそういうものなのかもしれない。むしろ顔色で夕飯のメニューが決められるほうが異常なのだった。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「わあ、嬉しい」にっこりしておく   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ｗｗｗｗ   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「それなら肉が食べたいです、若者らしく」/   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「肉！いいね～～やっぱりがっつり食べてこそ、若人！」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「じゃあ、お願いね。ものぐさな子だから、そんなに遠くに行ってないと思う。暑いの苦手そうだし……茂みとか、木陰にいそう」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「探せる範囲で大丈夫。近くにいたら連れてきてもらえる？」<br>「いつ来てもいいように念のため、僕は家に居とくからさ」   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    トイレ行きたい   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    久々に見た　いてら   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「頼んだよ」と叔父は少し安心したように微笑むと、また「ニャンコー？！」と庭をうろつき始めた。/   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    戻りました   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    おか   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    ほんまにな   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    飼い主とペットの神経衰弱カード合わせゲーム真剣に続けててかわいい   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    リクエスト　ご　と　き   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    わかりましたと返事をしながら、叔父の姿からものぐさ要素を探って、出発する。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>あなたは猫を探すため、家から出る。<br><br>そうして、玄関先の電柱の前に立つ。<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    いつも、ここに、貼り紙があるから。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>しかし、今日に限って。<br>それがなかった。<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>代わりに。<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>今まさに、貼り紙を貼ろうとしている人がいた。<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    ＜目星＞   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「！」もしや9999かと思い目を細めて観察する。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    CCB&lt;=90 【目星】 (1D100&lt;=90) ＞ 59 ＞ 成功  </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    その貼り紙には、まさに、あなたが……というより叔父が探していた猫の写真が掲載されていた。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    書いてあるのは「保護しています。心当たりのある方はここに電話してください」という文字と、電話番号。<br>末尾は9999。覚えやすい。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    □その人に<br>　▶ 話しかける<br>　▶ 話しかけない   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    いそいそと話しかける。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「あの」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    あなたが話しかけると、貼り紙を持つ人物は驚いた顔で振り向く。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「あ……お心当たりがありますか？」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    そう、ゆるりとほほ笑んだ。/   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    頷く。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「叔父が探している猫のようです。あなたが保護を？」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    あなたが猫のことを話すと、その人物は安堵した様子を見せた。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「ええ、そうです。よかった、飼い主が見つかって。」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「この村はみんな、ちゃんと戸締りをしないんです。」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「だから、飼っている動物がすぐに逃げ出してしまう」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「家のゲージに入ってもらっています。引き取りに来てくれませんか？」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    □<br>　▶ 猫を1人で引き取りに行く<br>　▶ 叔父を呼びに行くことを伝える   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    あっさり見つかったことに拍子抜けしながらも、心のどこかでは、ここに貼り出されることをどこかでわかっていたような気がする。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「見つけてくださってありがとうございます」   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「狭い土地ですから、人もペットたちも家と外の区別をしていないのかもしれません」   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「このまま伺っても？」自分がすぐに引き取って帰った方が、叔父は喜ぶだろうと考える。   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    素晴らしいムーブです   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「いいえ、よかったです。見つけられて」<br>「そうかもしれないですね、自由に歩き回ることは何よりですが……何かと危険ですから」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「はい、もちろん！………それじゃあこっちに」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    あなたのその返事を聞いたその人物は微笑み、そのまま自宅へと案内する。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br><br>…<br><br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    その人物の自宅、というのは、叔父の家と同じく平屋の一軒家であった。<br>表札には名前が書かれておらず、この人物の名前はわからない。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    あなたを家に招き入れたその人は、一つのふすまの前で足を止めた。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「この部屋でケージにいれてるんです。私はアレルギーなので、部屋に入れません。連れて行ってくれませんか」<br><br>「特にケージに鍵はついていませんから。お願いします」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    ふすまの中からはよく聞くにゃおんだかみゃおんだかわからない猫の鳴き声が聞こえてくる。/   </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>KP</dt><dd>    尻　撫　で　確　定   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    驚いてその人を見る。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    アレルギーなのにわざわざ保護してくれているのか、と思った後、一拍おいてから「アレルギーなのにわざわざ保護してくださったのですか」と聞く。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「それは申し訳ないことをしました。後で叔父からも礼をさせてください」   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    さっさと引き取るのがこの人のためだろうと思い、鳴き声のする部屋に入る。/   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「ええ。でも困っている子がいたら、助けなきゃ」<br><br>その人はにこり、と笑って「さあ、」とあなたを促す。<br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>そのままふすまを、開けると。<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>そこには、あの猫がいた。<br><br>トイレとエサ皿と水の設置された、ふかふかの毛布までおかれた、結構快適そうなケージに入れられて。<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    にゃおん、みゃおん。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    猫が鳴く。早く出せと言っているようだ。<br>ケージの広さは一畳ほどもあり、そんなに鳴く程の狭さでもないだろうに。/   </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>KP</dt><dd>    困っている子がいたら　ね　助けなきゃ　ね   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    猫のふてぶてしさに恥ずかしくなる。   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ｗｗｗ   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    俺に恥ずかしくさせるとはなんて猫だ、と思いながらもすぐに、もし実家に居たならこいつは俺を不快にさせたとして処分されるに違いないと思い至り、可哀想になってそっと抱え上げる。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「帰るぞ。昨日はどこにいたんだ。叔父が心配している」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    連れて帰ろうと、あなたはケージに手をかける。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    そのまま開けると、あなたの腕をかいくぐり、猫がぴゅっと外に出てしまった。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「は？」   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    キレんな   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「…………」猫の走り出した方に顔を向ける。   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    ほんとはいい人だったのに   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>追おうと手を伸ばす、前に。<br><br>   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    しりなでくるぞ   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br>あなたは背中を押された。<br><br><br>   </dd></dl>
+<dl style="color:#4f8888" class="main"><dt>05_6</dt><dd>    <br>がしゃん。<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    そんな音とともに、ケージの扉が閉められる音がした。   </dd></dl>
+<dl style="color:#4f4f4f" class="zatsudan"><dt>▼</dt><dd>    早いって   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    もうちょっと我慢できる？   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    びっっくりした   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ｗｗｗｗｗｗｗ   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ここからだから   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    腰をかがめた状態で突き飛ばされ、四つん這いの状態になっているあなたは、今後ろで何が行われているかはわからない。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    立とうにもケージの天井は低く立ち上がれない。<br>後ろでガチャガチャと金属音がする。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>05_8</dt><dd>    <br><br>がちゃん、という音が、最後にした。<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    /   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    …   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    何が起きたか飲み込めないながらにもう一人の人間の方を見る。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    なんとか体勢を整えようと藻掻く。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    ゲージは頑丈で、手で押してもびくともしない。<br>狭いスペースに無理やり押し込められたせいで、身動きが取れない。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「おい、」仕方がないので声を上げる   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「これは、何を……」もぞもぞし続ける   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「………ふふ、」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    後ろからやつが話しかけてくる。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「ねえ、君。お名前は？」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    ＜目星＞   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「そちらが先に名乗るべきでは」   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    CCB&lt;=90 【目星】 (1D100&lt;=90) ＞ 18 ＞ スペシャル  </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    怖いぞ〜   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「名前、教えてくれないんだ。」<br><br><br>「じゃあ勝手に名前をつけちゃおうかな……なんて」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    そんな楽しそうな声が聞こえてくる。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    あなたはこの状況から脱出するべく、見える範囲での情報を探る。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    ケージの床を見れば、ところどころに血痕が残されていることに気が付く。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>そして。<br><br>ケージの格子部分に、長い髪の毛が絡まっていた。<br><br>栗色の、長い髪。<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    ……先日見かけた女性と、同じ色をしている。/   </dd></dl>
+<dl style="color:#4f4f4f" class="zatsudan"><dt>▼</dt><dd>    過去最速   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    もうちょっとがんばろうね　これでびびってたら先にすすめないよ   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    まじかよ　普通に怖い   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    見たもの全てから嫌な結論が導き出されようとしている   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    源   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    源の音楽は心を救う   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    声に向かって返事をする。<br>「……俺のことは好きに呼べばいい」   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「お前のことは犯罪者と呼ぶこととするが」   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「…………」一旦血を眺めながら黙る。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「ふふ」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    やつは、あなたの言葉には何も答えず。<br><br>膝をつき、背中を丸め、頭を低くしているしかないあなたに。<br>心底嬉しそうに語りかけてくる。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br>「大丈夫だよ」<br><br>「ここにいれば安全だからね」<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    ケージの隙間から指を入れられているのか、<br>突き出す形になっている尻を撫でられる。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>05_11</dt><dd>    <br><br>なで、なで。<br><br><br>なで、なで。<br><br><br>   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    きも   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    みんな通った道   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    人生を振り返る。   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    人生をwwwwwwwwwwwwwww   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    溺れるほどの愛情を受けて育ってきた。熱が出れば額をなでられ、成績がよければ頬をなでられ。   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    ここまでリアタイできて本望   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    今日は寝るぜ！！！！！！！   </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>KP</dt><dd>    おやすみ～～～   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    wwwwwwwwwwwwwww   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    なで回されて育ったと思っていたが、それは勘違いだったようだ。   </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>KP</dt><dd>    まじでおもろい   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    これ即興なの何？   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    尻はなでられたことがない。   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    変な気づき始まっちゃってる   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    不快に思いながら、いかに今まで危険から遠ざけられて暮らしていたのか、親のありがたみが身に沁みた。尻をなでられたおかげで親に感謝することになるとは。   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    人生を振り返る（世を儚むのかな？）<br>人生を振り返る（本当に人生を振り返っている）   </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>KP</dt><dd>    ｗｗｗｗｗｗｗｗｗｗｗｗｗｗ   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    こいつは後で殺してもらおう、と心に決めた。/   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    親のありがたみに思いを馳せるの夏至史上初かも   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    あ、殺意はある   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    # おもしれえ〜   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br>「大丈夫。」<br><br>「最後まで責任を持つよ」<br><br><br>   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    殺して「もらおう」←甘え   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br>人間の指は、左右の腕に、五本ずつついている。<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br>だから。<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>05_13</dt><dd>    <br><br>なで、なで。<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    左の尻たぶと、右の尻たぶ。<br>それぞれを別々の指で、同時に撫でることは可能だとわかる。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>しかし。<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br>なで、なで。<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>では、<br><br><br>同じく突き出す形になっている足の裏を撫でている指は、<br><br>いったいどこの誰のものだというのか。<br><br>/   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    あまりにキモいのでできるだけ身を縮める。   </dd></dl>
+<dl style="color:#673ab7" class="zatsudan"><dt>椎崎 章邦 </dt><dd>    犯罪者、腕3本ある？逆シャンクス？   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>05_14</dt><dd>    <br><br>なで、なで。<br><br><br>なで、なで。<br><br><br>   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    そうかも(そうかな？)   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>尻を、足の裏を、<br><br>上からは背中を、腰を、<br><br>撫でられる。<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>あなたの見えない場所から無数の指が、<br><br>このケージの中に閉じ込められているあなたの体を撫でている。<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    いつの間にか大量の人間に囲まれているこの状況に恐怖を抱く。<br>1/1D4の正気度を失う。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    怖すぎ   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    CCB&lt;=80 【正気度ロール】 (1D100&lt;=80) ＞ 58 ＞ 成功  </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    逆シャンクスwwwwwwwwwwwwwww   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>system</dt><dd>    [ 椎崎 章邦  ] SAN : 80 → 79   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「ふふ」　　　　「大丈夫」<br><br>　　　「ふふふ」　　　　　「安全だよ」<br><br>「あはは」　　　「もう安心」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br>一人、二人、三人、<br><br><br>いやもっと。<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br>やつ、が。<br><br>やつら、が。<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br>ケージに入っているあなたの、<br><br>伏せるしかない頭の、後頭部を。<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>手のひら全体で、撫ぜた。<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br>このケージに、手の入るほどの隙間はない。<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    1D2/1D4+1の正気度を失う。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    CCB&lt;=79 【正気度ロール】 (1D100&lt;=79) ＞ 74 ＞ 成功  </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    1d2 (1D2) ＞ 2  </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>system</dt><dd>    [ 椎崎 章邦  ] SAN : 79 → 77   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    きも　こわ   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>05_18</dt><dd>    <br><br><br>「「「「君が無事でよかった」」」」<br><br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>06_01</dt><dd>    <br><br>がん、と。<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    何かを殴る音がした。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    どさり、倒れる音。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    ケージに入れられていた手は、指は、一気に引いていった。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>がしゃがしゃという音がして。がしゃん、と最後に、ケージの扉があく音がした。<br>服の腰部分をつかまれ、強引にケージから引きずり出される。<br><br>様々な個所をぶつけながら引きずり出されたそこに、いたのは。<br>   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    あ〜あ   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    やべ　お地蔵さんと同じ感想になっちゃった   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br>「何してるの。帰るよ」<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    叔父であった。   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    お地蔵さんの気持ちわかったわ   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>  </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br><br>…<br><br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    叔父が駐在に連絡し、村の人たちも引き連れやってきたころには、もう日は沈み始めていた。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    オレンジ色の空の下、駐在と叔父が座り込むあなたへ、紙パックの野菜ジュースを差し出す。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>駐在<br>「いやあ、びっくりした。この家は誰も住んでねえはずなんだが、なんか、人の声がするっつーから、村んガキがいたずらしちょるんかと思ったら」<br><br>「なーにケージ入って遊んでんだ、驚かせて」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>叔父<br>「本当だよ。自分から入って出られなくなったなんて、もう、間抜けすぎて笑えないよ」<br><br>「なかなか帰ってこなくて心配して、村の人たちに声かけまくったのに。恥かいちゃった」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>       </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>KP</dt><dd>    あ～あ   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    □<br>　▶ ほかに人がいなかったか聞く<br>　▶ 何かを殴る音がしたことを聞く   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    あ〜あ   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    自分から入ったのではない、あいつに突き飛ばされたんだ、俺がどんなに恐怖と怒りを感じたのか知らしめたい、と思いながら一拍おいて、   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「叔父の声がする直前、何かを殴る音がしたんですが、どなたかが？」と尋ねる   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「え？殴った音？」<br><br>「殴ってはない、かな？殴るものも相手もなかったし」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「物音がしたっていうことなら、ふすまが開かないように立てかけられてた木の棒は外したよ」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「あのままじゃあケージからもそうだけど、部屋からも出られなかっただろうに～……今後は空き家にはいるのはやめてよね」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    □<br>　▶ ほかに人がいなかったか聞く   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「……」   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「他に誰か、いませんでしたか」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「人？そんなのいなかったよね、駐在さん」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「ああ。あんたがこの家入っていくとこ、見たって村んやつもいたけど。お前さん一人でこの家侵入したんだろ」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「あそこは空き家だ。誰も住んじゃおらんよ……寝ぼけとるんか？」<br><br> (1D10) ＞ 3  </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ダイス関係ない（間違えて押しちゃった）   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    おけ   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    □<br>　▶ この家について、もっと踏み込んで聞く   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    こみ上げる憤りをなんとか押し殺すために深呼吸をする。   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    この家ってのは空き家のこと？   </dd></dl>
+<dl style="color:#4f4f4f" class="zatsudan"><dt>▼</dt><dd>    そう   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    この家とあそこの家があって　わかんなかった   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    ありがと   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「この家はずっと空き家なんですか」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br>「あ？ああ……」<br><br><br><br>「…………今はな」<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「うーん、この家なあ……」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>そう言って、駐在が語りだす。<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「むかーし、動物好きの一家が住んでたなぁ。」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「お子さん事故で死なせて…………」<br><br>「父親と母親の気が狂ってな」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br><br>「自殺したんだ」<br><br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br>「………ああ、たしか」<br><br>「そういえば、そうだった」<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br><br>「自殺現場は…………<br><br>お前さんの閉じ込められてた部屋だったな」<br><br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br><br>…<br><br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    その話の後。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    あなたは駐在や村の人たちに頭を下げつつ、叔父と帰路につくだろう。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「……それで？」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「結局、何があったの？洗いざらい話しなさい。」<br><br>「一応、今君の保護者なんだからね。状況はちゃんと把握しておきたいんだ」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    肩を並べて歩く、夕暮れの道。<br><br>ちらりと隣で歩く叔父を見ると、<br>あなたをじっと心配そうに見ていることが分かる。<br>目が合うと、こくりと頷き、話を促しているようだった。/   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「何があったのかって、さっきあなた方が話していた通りですよ」   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    信用できない。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    駐在の前と俺の前で対応が変わる意味もわからない。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「それより、猫なんですが、まだ捕まえられていなくて」   </dd></dl>
+<dl style="color:#e91e63" class="group tab_0"><dt>KP</dt><dd>    CoC中学校教育必須カリキュラム「NPCを信用しない」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    何かつんとした様子に、ちょっとだけ肩をすくめて息を吐く。<br>「まあ、言いたくないならそれでいいんだけども」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「ああ、ニャンコなら章邦が出て行ってしばらくしてから何ともない様子で戻ってきたよ」   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「そうですか。それなら、はい」   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    無事で良かったとは何が何でも言いたくなかった。   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「じゃあ、今晩の肉はお預けですね」肩をすくめてみせる   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    「俺が連れ戻したわけじゃないですし」   </dd></dl>
+<dl style="color:#03a9f4" class="group tab_0"><dt>ぽるた</dt><dd>    フーン（ノートに書き写す）   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「まあまあ、そんなこと言わずに」<br><br>「暑い中歩き回って探してくれたんだし、ニャンコも無事見つかったんだから。多少のドタバタに関しては目を瞑ろう」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「いい感じに角煮が仕込めたんだよ。帰って一緒に食べよう」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    「いやあ、行方不明になった時はどうしようかと思ったけどさあ」   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br>「とにかく」<br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>END2</dt><dd>    <br><br><br>「君"は"無事でよかった」<br><br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    叔父は、あなたに向かってにっこりと微笑んだ。<br>心底安心したような、優しい顔で。   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br>呟いた、その言葉が。<br><br>いやに、耳に残った。<br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br><br>…<br><br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    <br><br><br>…<br><br><br><br>   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    **********************************<br><br><br><br>「夏に至る病」1話<br>6/18：無事でよかった<br><br><br>　　END2 「無事でよかった」<br><br><br><br>**********************************   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    **********************************<br><br><br>生還報酬　SAN+1D6<br><br><br>**********************************   </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>▼</dt><dd>    これは不可解な出来事のうちの一つだ。<br>これだけで何かがわかるわけがない。<br><br><br>「道端のいし」へ続く。   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ということで1話完走です！お疲れ様でした！   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    おつかれさまでした！！！！！   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    こわいて   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    まじでおもろい   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ありがとう   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    こわかった　まじで   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    あ、ヒモ生活が始まるんだ　と思った   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗｗ   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    念願じゃん   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    主体的なヒモになりたいのであって   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    主体的なヒモ　← 存在しない日本語   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    あのままだったら　恐怖を無視して媚びて暮らしたいのでは無いと気付いたのだった　とモノローグ入れることになりかけてた   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ｗｗｗｗｗｗｗｗｗｗｗ   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    気付き   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    全然この後も楽しみじゃない　こわい   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    尻撫でたらどんな反応するんだろうって楽しみにしてた   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    普通に無理だった   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    彰邦だったらもっと反抗できた   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    しおらしかったね   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    嫌過ぎ   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    原型はありつつ確実に違った   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    初プレイ時は「思ってたんと違う～～！？」になった<br>ホラシってこういう恐怖のアプローチもあるんだって思った   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    1話ずつ恐怖の質感違うシナリオ   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    そうなんだ　嫌だ   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ｗｗ   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    そこをなんとか   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    猫のことめちゃくちゃ嫌いになった   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    やはり犬   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    元から嫌いなのにｗｗｗｗ   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    犬しか   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    猫と実戦経験あるじゃん   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    思い出させないでよ   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ｗｗｗ   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    まじで思い出してた   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    さすらいのトムね   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    さすらいのトムｗｗｗｗｗｗｗｗｗ   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    地域であだ名着いてる猫何？   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    まじでおもろくて無理   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    俺はこんなとこで留まるタマじゃないんで   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    やかまし   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    いや～～～ひさしぶりに卓やってると感覚が　ソロシって自分以外のキャラが会話してるターンないから難しいね   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    そうなんよ   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    誰かのを受けて、っていうRP感覚とちょっと違う<br>まじでお人形遊びの才能ないと難しいかも   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    でも天界タブでぽるたと大絶賛してるのでゆっくりやってほしい<br>ぜんぜん話中で区切ってもいいので   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    それでいうと才能のなさ感じる　自分の言いたいことの整合性が出力と共に失われていき何回も書き直してるしやり直したい気持ちになる   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    はいはいはいはい   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    スポーツなんだ　卓は   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    やってないと鈍るし   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    わたしも久々すぎてアドリブの出力キレが落ちてるの感じる   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    とっさに出てこない　鍛えていきましょう   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    全部終わったら振り返り補完しよ   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    振り返り助かる   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    普通にあきゆりなりキセキ生徒会やってるときもそうだけど基本的に彰邦って全部補完してもらわんと何考えてるか真意わかんないんだよな   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    そこをあとから聞くの楽しい   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    伝わらないのはまずいよね（他人事）　そういう遊びなのに   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    そういう人間性のRPがうまいと感じているので誉め言葉　関心する   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    そういう人間だろこの魂   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    今世はもうちょい素直そうなんだけども   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    そうだね　控える人生だから   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    一回考えを挟んで、あ、伝わらないんだったとなって出力するところちゃんとバックボーン感じられて◎◎◎   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    人に迷惑をかけるかも←彰邦の辞書に無い日本語   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ｗｗｗｗｗｗｗｗｗｗｗ   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    カリスマだから……   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    無駄バックボーンまじで作っといて良かった　キャラを動かすガイドライン   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    そうね！！！！！！！特にこういうのだと助かるかも   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    あの決意持ってこの村来てるの日本中探してもコイツしかおらん   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    最初もっとあっさりしてたけど、どうせ使い切りキャラだと思って……   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    キャラシ芸たすかる　全部終わったらどういう感想大会してたか公表する   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    楽しみ   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    次回もよろしくお願いします   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    さ～～～～～夏至へのカウントダウンが始まったよ！<br>生還報酬を受け取って次に進もう！！   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ということで表でロールしてください   </dd></dl>
+<dl style="color:#673ab7" class="main"><dt>椎崎 章邦 </dt><dd>    1d6 (1D6) ＞ 3  </dd></dl>
+<dl style="color:#4f4f4f" class="main"><dt>system</dt><dd>    [ 椎崎 章邦  ] SAN : 77 → 80   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    おけ   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    元通り   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    元通り   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    お部屋が変わるんですよ   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    そうなんだ！   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    KPレスのお部屋改変したやつなので～～～1話ずつ別のお部屋ご案内する   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    また改めてでぃすこでご案内します　キャラコマはコピーするかららくらくお引越し   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    おけ   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ちなみに私は2話が一番怖かった   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    おたのしみに   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ｗ   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    心構えしておく　舐めてた   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    1話まだチュートリアルだから　2話から救済措置ちゃんと解禁します   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    元気になれそうなミュージック用意しときます   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    お願いします   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    源　助かった　本当に心が軽くなった   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    源   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    源しなければ……   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    亜咲花に勝てない源   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    たくさん源しようね   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    盛り塩もあるよ   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    盛り塩   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    盛り塩   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    破魔   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    必要だったな　次回は開幕前にやります   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    今日赤かったから気をつけて   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    そう　なんでだろう   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    やっぱ聞く耳なかった   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    それなwwwwwwwwww   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    いらないんや　聞き耳なんて   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    キャラシ見て「ついに……」って思った感情返せ   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    ＞いらないんや　聞き耳なんて<br><br>そんなことはない   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    というか彰邦との対比だったのに　聞き耳が   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    それ   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    蛙の子は蛙   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    聞き耳不要   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    極論   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    育てていこう　聞く耳   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    次回も配信ない平日でいいか？とりあえず   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    お願いします　来週は水曜以外なら   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    おけ　水曜にはたぶんなんかしら枠入ってるから逆にたすかる   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    声かけます   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    待ってます   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    日曜のことはのちほどLINEで～～～！   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    おけ   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    おそくまでありがとう楽しかった   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    こちらこそありがとうございました～～～！！！   </dd></dl>
+<dl style="color:#e91e63" class="zatsudan"><dt>KP</dt><dd>    またね～～～～！おやすみ！！！   </dd></dl>
+<dl style="color:#8a6f9b" class="zatsudan"><dt>ゴリちゃん</dt><dd>    おやすみ！！！！！   </dd></dl>
+
+</div>
+<footer></footer>
+
+<script>
+const Hide = (checkbox) => {
+  const elmntTarget = document.getElementsByClassName(checkbox.id)
+  for (let intCount = 0; intCount < elmntTarget.length; intCount++) {
+    const message = elmntTarget[intCount]
+    const contexts = message.className.split(' ')
+    let elmntChecked = checkbox.checked
+    contexts.forEach((context) => {
+      const contextCheckbox = document.getElementById(context)
+      if (contextCheckbox) {
+        elmntChecked &= contextCheckbox.checked
+      }
+    })
+    message.style.display = elmntChecked ? 'none' : ''
+  }
+}
+</script>
+</body>
+</html>
